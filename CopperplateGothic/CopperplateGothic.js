@@ -1,16 +1,4 @@
-// ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://web.whatsapp.com/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=whatsapp.com
-// @grant        none
-// ==/UserScript==
 
-(function() {
-	'use strict';
 	window.onload = () => {
 		var time1 = setInterval(() => {
 			if (document.querySelector(".landing-main")) {
@@ -80,4 +68,4 @@
 		}, 200)
 	}
 	// Your code here...
-})();
+
