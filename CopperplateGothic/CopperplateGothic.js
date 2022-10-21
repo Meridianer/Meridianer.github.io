@@ -63,10 +63,11 @@ window.onload = () => {
 	              document.querySelector('._2BU3P.tm2tP.copyable-area').querySelector('span[data-testid="clip"]').addEventListener('click', (e) => {
 							setTimeout(()=>{
 									document.querySelectorAll("._2qR8G._1wMaz._26nDl")[0].addEventListener('click', (w) => {
-									document.querySelector('div[data-testid="drawer-middle"]').setAttribute("style","position: fixed;width: 100%;left:0;")
+									document.querySelector('div[data-testid="drawer-middle"]').setAttribute("style","position: fixed;width: 100%;left:0;top:0;")
 									let mor = setInterval(()=>{
 										if(document.querySelector('.p357zi0d.ktfrpxia.nu7pwgvd.fhf7t426.f8m0rgwh.elxb2u3l._1Mcu-')){
 											clearInterval(mor)
+											document.querySelector('._3ArsE').setAttribute("style","width: auto;")
 											document.querySelector('.p357zi0d.ktfrpxia.nu7pwgvd.fhf7t426.f8m0rgwh.elxb2u3l._1Mcu-').setAttribute("style","min-width: auto;")
 										}
 									},200)
