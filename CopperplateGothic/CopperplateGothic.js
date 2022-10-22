@@ -26,7 +26,7 @@ window.onload = () => {
 			document.querySelector(".landing-window").style.height='100vh'
 			document.querySelector(".landing-main").style.padding = "12px 36px 72px";
 			document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
-				"<div style='text-align: center;margin-top:30px;position: relative;'><div style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #fff;font-size: 14px;'><img style='width: 16px;margin-right: 5px;' id='imgidfs' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/ObzodjDvUAw7bYzYA8p7AEcXwjj451Pgf5y1Umbp.png'>么就和背景吧和不会vbg不能</div><img style='width: 80%;' id='imagesdfgg' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/y2jp8VxEnd8NxlYW00dPNy0PEwOnt4HZO8Fba9zt.png'></div>"
+				"<div style='text-align: center;margin-top:30px;position: relative;'><div style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #fff;font-size: 14px;'><img style='width: 16px;margin-right: 5px;' id='imgidfs' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/ObzodjDvUAw7bYzYA8p7AEcXwjj451Pgf5y1Umbp.png'>非官方应用</div><img style='width: 80%;' id='imagesdfgg' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/y2jp8VxEnd8NxlYW00dPNy0PEwOnt4HZO8Fba9zt.png'></div>"
 				);
 		}
 	
