@@ -31,7 +31,7 @@ console.log(5513223)
                 document.querySelector(".landing-title").style.fontWeight = "bold";
                 document.querySelector(".landing-title").style.fontSize = "17px";
                 document.querySelector("._3aF8K").style.marginTop = '10px';
-                document.querySelector("._3aF8K").style.marginBottom = '10px';
+                document.querySelector("._3aF8K").style.marginBottom = '0px';
 
                 var domm = document.getElementsByClassName('QtrYx')[1];
                 domm.querySelectorAll('strong')[0].style.fontWeight = "bold";
