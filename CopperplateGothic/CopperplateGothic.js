@@ -1,6 +1,6 @@
 var timev = setInterval(() => {
 
-		if (document.querySelector(".os-win")) {
+		if (document.querySelector("._1Fm4m")) {
 
 			setTimeout(() => {
 				initweb()
