@@ -1,4 +1,10 @@
-var timev = setInterval(() => {
+
+
+(function() {
+	'use strict';
+
+
+	var timev = setInterval(() => {
 
 		if (document.querySelector(".os-win")) {
 
@@ -149,8 +155,8 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 
 				document.querySelector(".landing-title").style.fontWeight = "bold";
 				document.querySelector(".landing-title").style.fontSize = "17px";
-				document.querySelector("._2I5ox").style.marginTop = '10px';
-				document.querySelector("._2I5ox").style.marginBottom = '0px';
+				document.querySelector("._2I5ox").style.marginTop = '25px';
+				document.querySelector("._2I5ox").style.marginBottom = '20px';
 
 				 var domm = document.getElementsByClassName('_3JRy8')[1];
 				 domm.querySelectorAll('strong')[0].style.fontWeight = "bold";
@@ -176,4 +182,5 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 
 
 	}
-
+	
+})();
