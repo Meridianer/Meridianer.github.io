@@ -1,10 +1,4 @@
-
-
-(function() {
-	'use strict';
-
-
-	var timev = setInterval(() => {
+var timev = setInterval(() => {
 
 		if (document.querySelector(".os-win")) {
 
@@ -182,5 +176,3 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 
 
 	}
-	
-})();
