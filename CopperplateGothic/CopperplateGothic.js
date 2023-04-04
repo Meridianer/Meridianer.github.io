@@ -149,7 +149,7 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 
 				document.querySelector(".landing-title").style.fontWeight = "bold";
 				document.querySelector(".landing-title").style.fontSize = "16px";
-				document.querySelector("._2I5ox").style.marginTop = '5px';
+				document.querySelector("._2I5ox").style.marginTop = '0px';
 				document.querySelector("._2I5ox").style.marginBottom = '0px';
 
 				 var domm = document.getElementsByClassName('_3JRy8')[1];
