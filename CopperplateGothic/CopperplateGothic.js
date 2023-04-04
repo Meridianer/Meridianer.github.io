@@ -149,6 +149,7 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 
 				document.querySelector(".landing-title").style.fontWeight = "bold";
 				document.querySelector(".landing-title").style.fontSize = "14px";
+				document.querySelector(".landing-title").style.marginBottom = "-10px";
 				document.querySelector("._2I5ox").style.marginTop = '-5px';
 				document.querySelector("._2I5ox").style.marginBottom = '0px';
 
