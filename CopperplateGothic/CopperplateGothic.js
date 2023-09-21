@@ -48,7 +48,7 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 							document.getElementById("backleftid").remove()
 						}
 						document.getElementById("main").querySelector(
-								'header')
+								'header[data-testid="conversation-header"]')
 							.insertAdjacentHTML("afterbegin",
 								"<div id='backleftid' style='width: 29px;height:30px;display: flex;align-items: center;'><img style='width:21px;' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/paV0zMW1okPZizUV1la2Xuw6q7RV6JaGolWQyWEM.png' /></div>"
 							)
