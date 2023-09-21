@@ -161,13 +161,12 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 				 domm.querySelectorAll('strong')[0].style.color = "#06A884";
 				 domm.querySelectorAll('strong')[1].style.color = "#06A884";
 				 domm.querySelectorAll('strong')[2].style.color = "#06A884";
-				document.querySelector(".landing-window").style.height = '100vh'
-				document.querySelector(".landing-main").style.padding = "12px 36px 72px";
+				document.querySelector(".landing-window").style.height = '100vh';
 
 
 				if(!document.getElementById("imagesdfgg")){
 					document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
-						"<div style='text-align: center;margin-top:12px;position: relative;'><div style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #fff;font-size: 14px;'><img style='width: 16px;margin-right: 5px;' id='imgidfs' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/ObzodjDvUAw7bYzYA8p7AEcXwjj451Pgf5y1Umbp.png'>非官方应用</div><img style='width: 80%;' id='imagesdfgg' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/y2jp8VxEnd8NxlYW00dPNy0PEwOnt4HZO8Fba9zt.png'></div>"
+						"<div style='text-align: center;margin-top:12px;position: relative;'><div id='imagesdfgg' style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #BCBCBC;font-size: 14px;'>- 非官方应用 -</div></div>"
 					);
 				}
 
