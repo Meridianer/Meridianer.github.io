@@ -1,4 +1,4 @@
-var timev = setInterval(() => {
+  var timev = setInterval(() => {
            if (document.querySelector("._9dls")) {
 
                setTimeout(() => {
@@ -27,7 +27,7 @@ var timev = setInterval(() => {
        },300)
        var timevs = setInterval(() => {
 		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
-			.getElementsByClassName('_2Ts6i')[2]) {
+			.getElementsByClassName('_aigv')[2]) {
 			setTimeout(() => {
 				loginview()
 			}, 500)
@@ -40,7 +40,7 @@ function loginview() {
 	var time2 = setInterval(() => {
 
 		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
-			.getElementsByClassName('_2Ts6i')[2]) {
+			.getElementsByClassName('_aigv')[2]) {
 			clearInterval(time2)
 
 			document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
@@ -50,13 +50,13 @@ function loginview() {
 			//	.getElementsByClassName('_2Ts6i')[0].style.minWidth = '100%'
 
 			document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
-				.getElementsByClassName('_2Ts6i')[2].style.minWidth = '100%'
+				.getElementsByClassName('_aigv')[2].style.minWidth = '100%'
 
-			document.querySelectorAll(".lhggkp7q.ln8gz9je.rx9719la").forEach(item => {
+			document.querySelectorAll(".x10l6tqk.xh8yej3.x1g42fcv").forEach(item => {
 
 				item.addEventListener('click', (e) => {
 
-					document.querySelectorAll("._2Ts6i._2xAQV")[1].setAttribute("style",
+					document.querySelectorAll("._aigv._aigz")[1].setAttribute("style",
 						'z-index: 120;position: absolute;width: 100%;')
 					if (document.getElementById("backleftid")) {
 						document.getElementById("backleftid").remove()
@@ -68,15 +68,13 @@ function loginview() {
 						)
 					document.getElementById("backleftid").addEventListener('click',
 						(e) => {
-							document.querySelectorAll("._2Ts6i._2xAQV")[1]
-								.setAttribute("style",
-									'z-index: 1;position: absolute;width: 100%;'
-								)
+                        document.querySelectorAll("._aigv._aigz")[1].setAttribute("style",
+						'z-index: 120;position: absolute;width: 0%;')
 						})
 
                     var foot = document.getElementsByTagName("footer")[0]
 
-                    foot.querySelector('._3ndVb.fbgy3m38.ft2m32mm.oq31bsqd.nu34rnf1').addEventListener('click', (
+                    foot.querySelector('.x10l6tqk.x1ey2m1c.x17qophe.x9f619.xh8yej3').addEventListener('click', (
 							e) => {
                        setTimeout(() => {
 								document.querySelectorAll('.bugiwsl0.fooq7fky')[3].addEventListener('click', (e) => {
