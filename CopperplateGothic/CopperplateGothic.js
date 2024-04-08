@@ -1,4 +1,6 @@
-  var timev = setInterval(() => {
+
+	 
+    var timev = setInterval(() => {
            if (document.querySelector("._9dls")) {
 
                setTimeout(() => {
@@ -24,19 +26,28 @@
              document.querySelector("._aj-c").textContent=document.querySelector("._aj-c").textContent.replace("WhatsApp","WA")
 
            }
+         
        },300)
+       
        var timevs = setInterval(() => {
-		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
-			.getElementsByClassName('_aigv')[2]) {
-			setTimeout(() => {
-				loginview()
-			}, 500)
-			clearInterval(timevs)
-		}
+         
+       if(document.getElementsByClassName('app-wrapper-web')[0]){
+			 if(document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]){
+				 if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0].getElementsByClassName('_aigv')[2]) {
+				 	setTimeout(() => {
+				 		loginview()
+				 	}, 600)
+				 
+				 	clearInterval(timevs)
+				 }
+			 }
+		 }
+         
 	},200)
 
 
 function loginview() {
+ 
 	var time2 = setInterval(() => {
 
 		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
@@ -55,9 +66,33 @@ function loginview() {
 			document.querySelectorAll(".x10l6tqk.xh8yej3.x1g42fcv").forEach(item => {
 
 				item.addEventListener('click', (e) => {
+                  console.log("11111")
 
 					document.querySelectorAll("._aigv._aigz")[1].setAttribute("style",
 						'z-index: 120;position: absolute;width: 100%;')
+                  
+              document.querySelectorAll("._ak1t._ak1m")[0].addEventListener('click', (e) => {
+						setTimeout(()=>{
+								
+								document.querySelectorAll("div.x1i64zmx.x1emribx")[1].addEventListener('click', (e) => {
+									document.querySelectorAll("div._aigv._aigw._aigx")[0].setAttribute("style",'display:none')
+									var tmer = setInterval(()=>{
+										if(document.querySelectorAll("div.x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x12fk4p8.xeuugli.x2lwn1j.x1nhvcw1.xdt5ytf.x1qjc9v5._ajwt")[0]){
+											
+										document.querySelectorAll("div.x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x12fk4p8.xeuugli.x2lwn1j.x1nhvcw1.xdt5ytf.x1qjc9v5._ajwt")[0].setAttribute("style",
+							'min-width:auto;')
+							
+											clearInterval(tmer)
+										}
+										
+									},300)
+								})
+								
+							},300)
+								
+					})
+                  
+                  
 					if (document.getElementById("backleftid")) {
 						document.getElementById("backleftid").remove()
 					}
@@ -68,6 +103,7 @@ function loginview() {
 						)
 					document.getElementById("backleftid").addEventListener('click',
 						(e) => {
+                          console.log("22222")
                         document.querySelectorAll("._aigv._aigz")[1].setAttribute("style",
 						'z-index: 120;position: absolute;width: 0%;')
 						})
@@ -76,8 +112,10 @@ function loginview() {
 
                     foot.querySelector('.x10l6tqk.x1ey2m1c.x17qophe.x9f619.xh8yej3').addEventListener('click', (
 							e) => {
+                          console.log("333333")
                        setTimeout(() => {
 								document.querySelectorAll('.bugiwsl0.fooq7fky')[3].addEventListener('click', (e) => {
+                                      console.log("44444")
 
                                     document.querySelectorAll('._2Ts6i._3RGKj._318SY')[0].setAttribute("style",'flex:0;')
 									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[1]){
@@ -119,6 +157,7 @@ function loginview() {
                                 })
 
 								document.querySelectorAll('.bugiwsl0.fooq7fky')[2].addEventListener('click', (e) => {
+                                    console.log("55555")
 
 								    document.querySelectorAll('._2Ts6i._3RGKj._318SY')[0].setAttribute("style",'flex:0;')
 									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[1]){
@@ -166,48 +205,50 @@ function loginview() {
 
 
 
-					document.querySelector('._2BU3P.tm2tP.copyable-area').querySelector(
-						'span[data-testid="clip"]').addEventListener('click', (
-						e) => {
-						setTimeout(() => {
+					// document.querySelector('._2BU3P.tm2tP.copyable-area').querySelector(
+						// 	'span[data-testid="clip"]').addEventListener('click', (
+						// 	e) => {
 
-							document.querySelectorAll(
-									"._2qR8G._1wMaz._26nDl")[0]
-								.addEventListener('click', (w) => {
-									document.querySelector(
-										'div[data-testid="drawer-middle"]'
-									).setAttribute("style",
-										"position: fixed;width: 100%;left:0;"
-									)
 
-									let mor = setInterval(() => {
-										if (document
-											.querySelector(
-												'.p357zi0d.ktfrpxia.nu7pwgvd.fhf7t426.f8m0rgwh.elxb2u3l._1Mcu-'
-											)) {
-											clearInterval(
-												mor)
-											document
-												.querySelector(
-													'.p357zi0d.ktfrpxia.nu7pwgvd.fhf7t426.f8m0rgwh.elxb2u3l._1Mcu-'
-												)
-												.setAttribute(
-													"style",
-													"min-width: auto;"
-												)
-										}
-									}, 200)
+						// 	setTimeout(() => {
 
-								})
+						// 		document.querySelectorAll(
+						// 				"._2qR8G._1wMaz._26nDl")[0]
+						// 			.addEventListener('click', (w) => {
+						// 				document.querySelector(
+						// 					'div[data-testid="drawer-middle"]'
+						// 				).setAttribute("style",
+						// 					"position: fixed;width: 100%;left:0;"
+						// 				)
 
-						}, 300)
-					})
+						// 				let mor = setInterval(() => {
+						// 					if (document
+						// 						.querySelector(
+						// 							'.p357zi0d.ktfrpxia.nu7pwgvd.fhf7t426.f8m0rgwh.elxb2u3l._1Mcu-'
+						// 						)) {
+						// 						clearInterval(
+						// 							mor)
+						// 						document
+						// 							.querySelector(
+						// 								'.p357zi0d.ktfrpxia.nu7pwgvd.fhf7t426.f8m0rgwh.elxb2u3l._1Mcu-'
+						// 							)
+						// 							.setAttribute(
+						// 								"style",
+						// 								"min-width: auto;"
+						// 							)
+						// 					}
+						// 				}, 200)
 
+						// 			})
+
+						// 	}, 300)
+						// })
 
 
 				})
 			})
 
+        
 
 
 			document.querySelector('div[data-testid="menu-bar-menu"]').addEventListener('click', (
@@ -287,3 +328,6 @@ function initweb() {
 
 
 }
+  
+
+
