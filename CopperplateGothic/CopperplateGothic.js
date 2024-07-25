@@ -203,7 +203,9 @@ document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventList
 				if (document.querySelector(".landing-main")) {
                     clearInterval(time1)
 					document.querySelector(".landing-wrapper").style.minWidth = "100%";
-                    // document.querySelector(".x1c4vz4f").style.display = "none";
+                    if (document.querySelector(".x1c4vz4f")){
+                        document.querySelector(".x1c4vz4f").style.display = "none";
+                    }
 					document.querySelector("._ak5k").style.display = "none";
 					document.querySelector(".landing-header").style.display = "none";
 					document.querySelector(".landing-title").style.fontWeight = "bold";
