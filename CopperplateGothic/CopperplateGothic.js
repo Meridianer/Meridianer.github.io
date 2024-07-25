@@ -1,5 +1,4 @@
-
-   var timevb = setInterval(() => {
+  var timevb = setInterval(() => {
 			if (document.querySelector("div.landing-wrapper-before")) {
 				document.querySelector(".landing-wrapper-before").setAttribute("style",
 					'background:inherit;')
@@ -39,11 +38,11 @@
 
 					//document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 					//	.getElementsByClassName('_2Ts6i')[0].style.minWidth = '100%'
-                    if (document.querySelector(".xbyj736")){
+                    if (document.querySelector(".xbyj736"){
                         document.querySelector(".xbyj736").style.display = "none";
                     }
 
-                    // document.querySelector(".xbyj736").style.display = "none";
+                    
 					document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[
 							0]
 						.getElementsByClassName('_aigv')[2].style.minWidth = '100%'
@@ -152,8 +151,7 @@ function handleBugiwsl0Click(item) {
 function handleClicks() {
     querySelectorAllAndHandle(".x10l6tqk.xh8yej3.x1g42fcv", 'click', handleClickCore);
 }
-// 点击跳转
-handleClicks()
+
 // 为各种元素添加事件监听
 querySelectorAllAndHandle(".xjb2p0i.x1ypdohk.x972fbf.xcfux6l.x1qhh985.xm0m39n.xzqyx8i.xqa96yk.xvwobac.x1h2y310.x6prxxf.xo1l8bm.x1btupbp.xdxn8r.xmuu9lm.x1690sq9.x1yrsyyn.x10b6aqq.x1ye3gou.xn6708d", 'click', (e) => {
     setTimeout(handleClicks, 50);
@@ -165,7 +163,7 @@ querySelectorAllAndHandle(".xjb2p0i.x1ypdohk.x972fbf.xcfux6l.x1qhh985.xm0m39n.xz
     setTimeout(handleClicks, 50);
 }, 1);
 
-
+                    
 document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventListener('mouseout', () => {
     setTimeout(handleClicks, 50);
 });
@@ -201,9 +199,9 @@ document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventList
 			var time1 = setInterval(() => {
 
 				if (document.querySelector(".landing-main")) {
-               
+               clearInterval(time1)
 					document.querySelector(".landing-wrapper").style.minWidth = "100%";
-                    document.querySelector(".x1c4vz4f").style.display = "none";
+                    document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x12fk4p8.xeuugli.x2lwn1j.xl56j7k.x1q0g3np.x6s0dn4.x4n8cb0.xs9mwh0.light").style.display = "none";
 					document.querySelector("._ak5k").style.display = "none";
 					document.querySelector(".landing-header").style.display = "none";
 					document.querySelector(".landing-title").style.fontWeight = "bold";
@@ -218,7 +216,10 @@ document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventList
 					document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
 						"<div style='text-align: center;margin-top:12px;position: relative;'><div id='imagesdfgg' style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #BCBCBC;font-size: 14px;'>- 非官方应用 -</div></div>"
 					);
-                    clearInterval(time1)
 				}
 			}, 200)
+
+
+
+}
 
