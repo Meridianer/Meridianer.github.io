@@ -201,9 +201,9 @@ document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventList
 				if (document.querySelector(".landing-main")) {
                clearInterval(time1)
 					document.querySelector(".landing-wrapper").style.minWidth = "100%";
-                    if (document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x12fk4p8.xeuugli.x2lwn1j.xl56j7k.x1q0g3np.x6s0dn4.x4n8cb0.xs9mwh0")){
-                        document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x12fk4p8.xeuugli.x2lwn1j.xl56j7k.x1q0g3np.x6s0dn4.x4n8cb0.xs9mwh0").style.display = "none";
-                    }
+                    // if (document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x12fk4p8.xeuugli.x2lwn1j.xl56j7k.x1q0g3np.x6s0dn4.x4n8cb0.xs9mwh0")){
+                    //     document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x12fk4p8.xeuugli.x2lwn1j.xl56j7k.x1q0g3np.x6s0dn4.x4n8cb0.xs9mwh0").style.display = "none";
+                    // }
                     
 					document.querySelector("._ak5k").style.display = "none";
 					document.querySelector(".landing-header").style.display = "none";
