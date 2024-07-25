@@ -201,7 +201,7 @@ document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventList
 			var time1 = setInterval(() => {
 
 				if (document.querySelector(".landing-main")) {
-               clearInterval(time1)
+               
 					document.querySelector(".landing-wrapper").style.minWidth = "100%";
                     document.querySelector(".x1c4vz4f").style.display = "none";
 					document.querySelector("._ak5k").style.display = "none";
@@ -218,6 +218,7 @@ document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventList
 					document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
 						"<div style='text-align: center;margin-top:12px;position: relative;'><div id='imagesdfgg' style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #BCBCBC;font-size: 14px;'>- 非官方应用 -</div></div>"
 					);
+                    clearInterval(time1)
 				}
 			}, 200)
 
