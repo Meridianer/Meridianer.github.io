@@ -1,5 +1,4 @@
-
-   var timevb = setInterval(() => {
+var timevb = setInterval(() => {
 			if (document.querySelector("div.landing-wrapper-before")) {
 				document.querySelector(".landing-wrapper-before").setAttribute("style",
 					'background:inherit;')
@@ -25,6 +24,21 @@
 		}, 300)
 
 
+
+        function getCount() {
+            if (document.querySelectorAll(".x1rg5ohu.x1xaadd7.x1pg5gke.xo5v014.x1u28eo4.x2b8uid.x16dsc37.x18ba5f9.x1sbl2l.xy9co9w.x5r174s.x7h3shv.x1tsellj.x682dto.x1e01kqd.xpqt37d.x9bpaai.xk50ysn")){
+                var nodeList = document.querySelectorAll(".x1rg5ohu.x1xaadd7.x1pg5gke.xo5v014.x1u28eo4.x2b8uid.x16dsc37.x18ba5f9.x1sbl2l.xy9co9w.x5r174s.x7h3shv.x1tsellj.x682dto.x1e01kqd.xpqt37d.x9bpaai.xk50ysn");
+                var count = 0;
+                for (const nodeDiv of nodeList) {
+                    count = count + parseInt(nodeDiv.innerText);
+                }
+                return count
+                  
+
+            }
+
+        }
+
 			var time2 = setInterval(() => {
 				if(!document.getElementsByClassName('_aigv')[2]){
 					return
@@ -47,6 +61,9 @@
 					document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[
 							0]
 						.getElementsByClassName('_aigv')[2].style.minWidth = '100%'
+
+
+
 // 封装复用
 // 提取公共的查询选择器函数
 function querySelectorAllAndHandle(selector, eventType, handler) {
@@ -63,6 +80,7 @@ function setStyle(selector, style) {
 // 处理点击事件的核心函数
 function handleClickCore(e) {
     setStyle("._aigv._aigz", 'z-index: 120;position: absolute;width: 100%');
+    window.webkit.messageHandlers.nativeBridge.postMessage('chat');
 
     document.querySelectorAll("._ak1t._ak1m")[0].addEventListener('click', (e) => {
         setTimeout(() => {
@@ -77,6 +95,7 @@ function handleClickCore(e) {
     insertBackLeftDiv();
     document.getElementById("backleftid").addEventListener('click', (e) => {
         setStyle("._aigv._aigz", 'z-index: 120;position: absolute;width: 0%;');
+        window.webkit.messageHandlers.nativeBridge.postMessage('list');
     });
 
     handleFooterClick();
@@ -223,4 +242,3 @@ document.querySelector(".x1n2onr6.xh8yej3.lexical-rich-text-input").addEventList
                     
 				}
 			}, 200)
-
