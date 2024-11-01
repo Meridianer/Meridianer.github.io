@@ -21,6 +21,16 @@ var timevb = setInterval(() => {
                     document.querySelector("._aj-c").textContent = document.querySelector("._aj-c")
      .textContent.replace("WhatsApp", "WA")
                 }
+                 if (document.querySelector(".x1q74xe4.x1iikomf.xggjnk3.x14q46b.xieb3on.x113ickt.x1iu5sdd.xval734.x1r328p9.xmf4tux")){
+                    document.querySelector(".x1q74xe4.x1iikomf.xggjnk3.x14q46b.xieb3on.x113ickt.x1iu5sdd.xval734.x1r328p9.xmf4tux").textContent = document.querySelector(".x1q74xe4.x1iikomf.xggjnk3.x14q46b.xieb3on.x113ickt.x1iu5sdd.xval734.x1r328p9.xmf4tux")
+     .textContent.replace("WhatsApp", "WA")
+                }
+
+       if (document.querySelector(".x1c3i2sq.x1wvv2pk.xao88mq.xr3see8.xlajccj.x16vpa8o")){
+                    document.querySelector(".x1c3i2sq.x1wvv2pk.xao88mq.xr3see8.xlajccj.x16vpa8o").textContent = document.querySelector(".x1c3i2sq.x1wvv2pk.xao88mq.xr3see8.xlajccj.x16vpa8o")
+     .textContent.replace("WhatsApp", "WA")
+                }
+               
     
     if (document.querySelector(".x1hql6x6.x1c3i2sq.xdod15v.x1iymm2a")){
                     document.querySelector(".x1hql6x6.x1c3i2sq.xdod15v.x1iymm2a").textContent = document.querySelector(
