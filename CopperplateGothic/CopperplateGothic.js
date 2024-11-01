@@ -19,6 +19,15 @@ var timevb = setInterval(() => {
                 document.querySelector("._aj-c").textContent = document.querySelector("._aj-c")
                     .textContent.replace("WhatsApp", "WA")
 
+            document.querySelector(".x1hql6x6.x1c3i2sq.xdod15v.x1iymm2a").textContent = document.querySelector(
+                    ".x1hql6x6.x1c3i2sq.xdod15v.x1iymm2a").textContent.replace("WhatsApp", "WA")
+
+                        document.querySelector(".x1c3i2sq.x1hql6x6").textContent = document.querySelector(
+                    ".x1c3i2sq.x1hql6x6").textContent.replace("WhatsApp", "WA")
+                        
+                        document.querySelector(".x579bpy.xo1l8bm.xggjnk3.x1hql6x6.xyorhqc").textContent = document.querySelector(
+                    ".x579bpy.xo1l8bm.xggjnk3.x1hql6x6.xyorhqc").textContent.replace("WhatsApp", "WA")
+
             }
 
         }, 300)
