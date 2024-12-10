@@ -139,7 +139,7 @@ var time2 = setInterval(() => {
         // 处理点击事件的核心函数
         function handleClickCore(e) {
             setStyle("._aigw.x9f619", 'z-index: 0;position: absolute;width: 100%');
-            //window.webkit.messageHandlers.nativeBridge.postMessage('chat');
+            window.webkit.messageHandlers.nativeBridge.postMessage('chat');
 
             document.querySelectorAll(".x78zum5.x6s0dn4")[0].addEventListener('click', (e) => {
                 setTimeout(() => {
@@ -154,7 +154,7 @@ var time2 = setInterval(() => {
             insertBackLeftDiv();
             document.getElementById("backleftid").addEventListener('click', (e) => {
                 setStyle("._aigw.x9f619", 'min-Width: 100%;');
-                //window.webkit.messageHandlers.nativeBridge.postMessage('list');
+                window.webkit.messageHandlers.nativeBridge.postMessage('list');
             });
 
             handleFooterClick();
